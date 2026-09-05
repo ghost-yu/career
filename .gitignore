@@ -1,0 +1,26 @@
+# Local configuration
+.env
+.env.*
+!.env.example
+# Dependencies and build output
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+dist/
+build/
+*.tsbuildinfo
+.npm-cache/
+# Runtime and private data
+*.db
+*.db-*
+*.sqlite*
+*.log*
+*.pkl
+backend/data/
+data/resumes/
+data/uploads/
+data/face_auth/
+.vscode/
+.idea/

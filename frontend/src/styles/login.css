@@ -1,0 +1,63 @@
+.industrial-login { min-height: 100vh; display: grid; grid-template-columns: 34% minmax(0, 1fr); color: #30343b; background: #fff; }
+.industrial-login-overview { background: #f2f5fc; display: flex; align-items: center; justify-content: center; padding: 64px 36px; }
+.industrial-login-visual { width: 100%; max-width: 390px; text-align: center; }
+.industrial-login-visual > img { width: 100%; height: 265px; object-fit: contain; display: block; margin: 0 auto 38px; }
+.industrial-login-visual h1 { margin: 0 0 18px; font-size: 24px; font-weight: 600; color: #30343b; line-height: 1.5; }
+.industrial-login-visual p { color: #89909d; font-size: 14px; line-height: 2; margin: 0; }
+.industrial-login-overview-foot { display: flex; justify-content: center; gap: 18px; margin-top: 42px; font-size: 12px; color: #768299; }
+.industrial-login-overview-foot span + span { border-left: 1px solid #d7ddeb; padding-left: 18px; }
+.industrial-login-main { display: flex; flex-direction: column; min-width: 0; min-height: 100vh; }
+.industrial-login-topbar { padding: 30px 40px; display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+.industrial-login-brand { display: flex; align-items: center; gap: 12px; font-size: 13px; color: #9096a0; }
+.industrial-login-brand strong { color: #30343b; font-size: 23px; white-space: nowrap; }
+.industrial-login-mark { color: #1677ff; display: grid; place-items: center; font-size: 30px; }
+.industrial-login-brand-divider { height: 18px; width: 1px; background: #dbe1e9; margin: 0 4px; }
+.industrial-login-topbar-note { color: #9096a0; font-size: 12px; white-space: nowrap; }
+.industrial-login-stage { flex: 1; display: flex; align-items: center; justify-content: center; padding: 20px 40px 40px; }
+.industrial-login-access { width: 100%; max-width: 396px; }
+.industrial-login-access-heading { text-align: center; }
+.industrial-login-access-heading h2 { margin: 0 0 12px; font-size: 30px; color: #282d35; font-weight: 600; }
+.industrial-login-access-heading p { margin: 0; font-size: 13px; color: #9399a3; line-height: 1.7; }
+.industrial-login-tabs { margin-top: 30px; }
+.industrial-login-tabs .ant-tabs-nav { margin-bottom: 24px; }
+.industrial-login-tabs .ant-tabs-tab { padding: 10px 4px; }
+.industrial-login-tabs .ant-tabs-tab + .ant-tabs-tab { margin-left: 32px; }
+.industrial-login-form .ant-form-item { margin-bottom: 22px; }
+.industrial-login-form .ant-form-item-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.industrial-login-form .ant-input-affix-wrapper, .industrial-login-form > .ant-form-item .ant-input { border-radius: 4px; border-color: #dcdfe5; background: #fff; }
+.industrial-login-form .ant-input-affix-wrapper { min-height: 44px; box-shadow: none; }
+.industrial-login-form .ant-input-affix-wrapper .ant-input { background: transparent; }
+.industrial-login-form .ant-input-prefix { margin-right: 10px; color: #b1b6bf; }
+.industrial-login-form .ant-input-affix-wrapper:hover { border-color: #6ca4ef; }
+.industrial-login-form .ant-input-affix-wrapper-focused { border-color: #1677ff; box-shadow: 0 0 0 2px #1677ff10; }
+.industrial-login-form input::placeholder { font-size: 13px; color: #a0a6b0; }
+.industrial-login-submit.ant-btn { height: 44px; margin-top: 2px; border-radius: 4px; box-shadow: none; font-size: 15px; font-weight: 400; }
+.industrial-login-captcha-row { display: grid; grid-template-columns: minmax(0, 1fr) 144px; gap: 12px; }
+.industrial-login-captcha { padding: 0; height: 46px; display: grid; place-items: center; cursor: pointer; background: #f3f6fa; border: 1px solid #dcdfe5; border-radius: 4px; overflow: hidden; color: #7c8797; font-size: 12px; }
+.industrial-login-captcha img { display: block; width: 144px; height: 48px; object-fit: contain; }
+.industrial-login-captcha:focus-visible { outline: 2px solid #1677ff; outline-offset: 2px; }
+.industrial-login-captcha-hint { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 8px; font-size: 11px; color: #9399a3; }
+.industrial-login-captcha-hint button, .industrial-login-access-footer button { background: none; border: 0; color: #1677ff; padding: 0; font: inherit; cursor: pointer; }
+.industrial-login-captcha-hint button:disabled, .industrial-login-access-footer button:disabled { opacity: .5; cursor: default; }
+.industrial-login-access-footer { margin-top: 20px; color: #9399a3; font-size: 12px; text-align: right; }
+.industrial-login-access-footer button { margin-left: 6px; }
+.industrial-login-footer { padding: 20px 24px 26px; text-align: center; font-size: 12px; color: #a0a6af; }
+@media (max-width: 1050px) {
+  .industrial-login-topbar { padding: 26px 28px; }
+  .industrial-login-topbar-note, .industrial-login-brand-divider, .industrial-login-brand > span:last-child { display: none; }
+  .industrial-login-visual h1 { font-size: 21px; }
+  .industrial-login-overview { padding: 40px 24px; }
+  .industrial-login-overview-foot { gap: 10px; }
+  .industrial-login-overview-foot span + span { padding-left: 10px; }
+}
+@media (max-width: 640px) {
+  .industrial-login { display: block; }
+  .industrial-login-overview { display: none; }
+  .industrial-login-topbar { padding: 24px; }
+  .industrial-login-brand strong { font-size: 21px; }
+  .industrial-login-stage { padding: 30px 28px 48px; }
+  .industrial-login-access-heading h2 { font-size: 27px; }
+  .industrial-login-footer { font-size: 11px; }
+  .industrial-login-captcha-row { grid-template-columns: minmax(0, 1fr) 130px; gap: 8px; }
+  .industrial-login-captcha img { width: 130px; }
+}

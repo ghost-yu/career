@@ -1,0 +1,20 @@
+{
+  "templates": [
+    {
+      "id": "tmpl_backend_demo",
+      "title": "后端项目模板：REST API + 鉴权 + 缓存",
+      "skills": ["Spring Boot", "MySQL", "Redis"],
+      "deliverables": ["接口文档", "单元测试", "Docker 部署", "README"],
+      "suggested_metrics": ["核心接口响应 < 200ms", "缓存命中率 > 60%"],
+      "duration_weeks": 2
+    },
+    {
+      "id": "tmpl_mq_async",
+      "title": "消息队列实践：异步任务与重试",
+      "skills": ["Kafka"],
+      "deliverables": ["生产者/消费者", "重试/死信", "监控指标"],
+      "suggested_metrics": ["消息处理成功率 > 99%"],
+      "duration_weeks": 1
+    }
+  ]
+}

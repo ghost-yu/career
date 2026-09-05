@@ -1,0 +1,432 @@
+{
+  "file": "e:/ai-career-agent-round9-smart-admin-xls-zhipu-delivery-lite/ai-career-agent-domestic-refit/20260226105856_457.xls",
+  "rows": 9958,
+  "mapped_missing_ratio": {
+    "title": 0.0,
+    "location": 0.0,
+    "salary_range": 0.0,
+    "company_name": 0.0,
+    "industry": 0.0002,
+    "company_size": 0.0002,
+    "company_type": 0.2988,
+    "job_code": 0.0,
+    "description": 0.0152,
+    "company_intro": 0.1351,
+    "source_url": 0.0,
+    "updated_date": 0.0
+  },
+  "salary_period_distribution": {
+    "month": 9473,
+    "day": 485
+  },
+  "salary_parse_fail_examples": [
+    {
+      "row": 49,
+      "title": "测试工程师",
+      "salary_range": "面议",
+      "location": "广州-增城区"
+    },
+    {
+      "row": 420,
+      "title": "实施工程师",
+      "salary_range": "面议",
+      "location": "上海-长宁区"
+    },
+    {
+      "row": 437,
+      "title": "科研人员",
+      "salary_range": "面议",
+      "location": "宜宾-翠屏区"
+    },
+    {
+      "row": 443,
+      "title": "测试工程师",
+      "salary_range": "面议",
+      "location": "北京-None"
+    },
+    {
+      "row": 483,
+      "title": "C/C++",
+      "salary_range": "面议",
+      "location": "深圳-南山区"
+    },
+    {
+      "row": 683,
+      "title": "技术支持工程师",
+      "salary_range": "面议",
+      "location": "南京-江宁区"
+    },
+    {
+      "row": 716,
+      "title": "C/C++",
+      "salary_range": "面议",
+      "location": "武汉-江夏区"
+    },
+    {
+      "row": 774,
+      "title": "软件测试",
+      "salary_range": "面议",
+      "location": "东莞-None"
+    },
+    {
+      "row": 779,
+      "title": "C/C++",
+      "salary_range": "面议",
+      "location": "上海-静安区"
+    },
+    {
+      "row": 796,
+      "title": "科研人员",
+      "salary_range": "面议",
+      "location": "北京-昌平区"
+    },
+    {
+      "row": 988,
+      "title": "前端开发",
+      "salary_range": "面议",
+      "location": "南京-雨花台区"
+    },
+    {
+      "row": 1019,
+      "title": "技术支持工程师",
+      "salary_range": "面议",
+      "location": "北京-大兴区"
+    },
+    {
+      "row": 1233,
+      "title": "科研人员",
+      "salary_range": "面议",
+      "location": "成都-郫都区"
+    },
+    {
+      "row": 1238,
+      "title": "测试工程师",
+      "salary_range": "面议",
+      "location": "东莞-None"
+    },
+    {
+      "row": 1392,
+      "title": "测试工程师",
+      "salary_range": "面议",
+      "location": "北京-朝阳区"
+    },
+    {
+      "row": 1449,
+      "title": "软件测试",
+      "salary_range": "面议",
+      "location": "西安-雁塔区"
+    },
+    {
+      "row": 1504,
+      "title": "前端开发",
+      "salary_range": "面议",
+      "location": "北京-海淀区"
+    },
+    {
+      "row": 1586,
+      "title": "前端开发",
+      "salary_range": "面议",
+      "location": "杭州-滨江区"
+    },
+    {
+      "row": 1615,
+      "title": "测试工程师",
+      "salary_range": "面议",
+      "location": "东莞-None"
+    },
+    {
+      "row": 1645,
+      "title": "硬件测试",
+      "salary_range": "面议",
+      "location": "武汉-江夏区"
+    },
+    {
+      "row": 1652,
+      "title": "前端开发",
+      "salary_range": "面议",
+      "location": "西安-雁塔区"
+    },
+    {
+      "row": 1830,
+      "title": "测试工程师",
+      "salary_range": "面议",
+      "location": "深圳-龙岗区"
+    },
+    {
+      "row": 1845,
+      "title": "前端开发",
+      "salary_range": "面议",
+      "location": "深圳-龙岗区"
+    },
+    {
+      "row": 1859,
+      "title": "技术支持工程师",
+      "salary_range": "面议",
+      "location": "北京-朝阳区"
+    },
+    {
+      "row": 2028,
+      "title": "C/C++",
+      "salary_range": "面议",
+      "location": "杭州-滨江区"
+    },
+    {
+      "row": 2360,
+      "title": "软件测试",
+      "salary_range": "面议",
+      "location": "上海-闵行区"
+    },
+    {
+      "row": 2436,
+      "title": "C/C++",
+      "salary_range": "面议",
+      "location": "深圳-龙岗区"
+    },
+    {
+      "row": 2474,
+      "title": "Java",
+      "salary_range": "面议",
+      "location": "深圳-南山区"
+    },
+    {
+      "row": 2496,
+      "title": "科研人员",
+      "salary_range": "面议",
+      "location": "南京-江宁区"
+    },
+    {
+      "row": 2586,
+      "title": "测试工程师",
+      "salary_range": "面议",
+      "location": "上海-闵行区"
+    },
+    {
+      "row": 2669,
+      "title": "前端开发",
+      "salary_range": "面议",
+      "location": "上海-静安区"
+    },
+    {
+      "row": 2685,
+      "title": "测试工程师",
+      "salary_range": "面议",
+      "location": "武汉-洪山区"
+    },
+    {
+      "row": 2723,
+      "title": "硬件测试",
+      "salary_range": "面议",
+      "location": "西安-雁塔区"
+    },
+    {
+      "row": 2887,
+      "title": "测试工程师",
+      "salary_range": "面议",
+      "location": "北京-朝阳区"
+    },
+    {
+      "row": 3157,
+      "title": "软件测试",
+      "salary_range": "面议",
+      "location": "佛山-南海区"
+    },
+    {
+      "row": 3210,
+      "title": "前端开发",
+      "salary_range": "面议",
+      "location": "西安-雁塔区"
+    },
+    {
+      "row": 3226,
+      "title": "前端开发",
+      "salary_range": "面议",
+      "location": "上海-浦东新区"
+    },
+    {
+      "row": 3228,
+      "title": "C/C++",
+      "salary_range": "面议",
+      "location": "深圳-龙岗区"
+    },
+    {
+      "row": 3314,
+      "title": "Java",
+      "salary_range": "面议",
+      "location": "深圳-龙岗区"
+    },
+    {
+      "row": 3320,
+      "title": "技术支持工程师",
+      "salary_range": "面议",
+      "location": "杭州-滨江区"
+    }
+  ],
+  "duplicate_soft_count": 1001,
+  "duplicate_soft_ratio": 0.1005,
+  "it_relevance_ratio_estimate": 0.7589,
+  "top_titles_20": [
+    [
+      "实施工程师",
+      591
+    ],
+    [
+      "科研人员",
+      591
+    ],
+    [
+      "技术支持工程师",
+      591
+    ],
+    [
+      "Java",
+      591
+    ],
+    [
+      "测试工程师",
+      591
+    ],
+    [
+      "软件测试",
+      456
+    ],
+    [
+      "C/C++",
+      415
+    ],
+    [
+      "前端开发",
+      271
+    ],
+    [
+      "硬件测试",
+      269
+    ],
+    [
+      "销售运营",
+      147
+    ],
+    [
+      "总助/CEO助理/董事长助理",
+      147
+    ],
+    [
+      "质检员",
+      147
+    ],
+    [
+      "运营助理/专员",
+      147
+    ],
+    [
+      "律师助理",
+      147
+    ],
+    [
+      "网络销售",
+      147
+    ],
+    [
+      "BD经理",
+      147
+    ],
+    [
+      "猎头顾问",
+      147
+    ],
+    [
+      "律师",
+      147
+    ],
+    [
+      "招聘专员/助理",
+      147
+    ],
+    [
+      "储备经理人",
+      147
+    ]
+  ],
+  "top_industries_20": [
+    [
+      "专业技术服务",
+      549
+    ],
+    [
+      "人力资源服务",
+      320
+    ],
+    [
+      "企业服务",
+      266
+    ],
+    [
+      "互联网",
+      265
+    ],
+    [
+      "咨询服务",
+      240
+    ],
+    [
+      "计算机软件",
+      216
+    ],
+    [
+      "电子商务",
+      192
+    ],
+    [
+      "物联网,物联网",
+      188
+    ],
+    [
+      "计算机软件,计算机软件",
+      177
+    ],
+    [
+      "保险",
+      167
+    ],
+    [
+      "保险,保险",
+      136
+    ],
+    [
+      "法律服务",
+      128
+    ],
+    [
+      "新媒体",
+      89
+    ],
+    [
+      "学术/科研",
+      83
+    ],
+    [
+      "电子/半导体/集成电路",
+      82
+    ],
+    [
+      "培训/辅导服务",
+      81
+    ],
+    [
+      "互联网,IT服务,计算机软件",
+      68
+    ],
+    [
+      "IT服务",
+      68
+    ],
+    [
+      "房地产开发",
+      68
+    ],
+    [
+      "新能源",
+      64
+    ]
+  ],
+  "sample_row_count": 200
+}

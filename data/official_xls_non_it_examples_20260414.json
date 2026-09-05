@@ -1,0 +1,967 @@
+{
+  "rows": 9958,
+  "non_it_keyword_hit_count": 2993,
+  "non_it_keyword_hit_ratio": 0.3006,
+  "examples": [
+    {
+      "row": 4366,
+      "title": "销售运营",
+      "industry": "零售/批发,零售/批发",
+      "location": "郑州-管城回族区",
+      "salary_range": "6000-12000元",
+      "company_name": "河南青碧信息科技有限公司"
+    },
+    {
+      "row": 4368,
+      "title": "总助/CEO助理/董事长助理",
+      "industry": "快速消费品,零售/批发",
+      "location": "郑州-金水区",
+      "salary_range": "6000-12000元",
+      "company_name": "郑州百壹源信息科技有限公司"
+    },
+    {
+      "row": 4369,
+      "title": "质检员",
+      "industry": "快速消费品,快速消费品",
+      "location": "湘潭-雨湖区",
+      "salary_range": "3000-5000元",
+      "company_name": "湖南雪帝食品科技有限公司"
+    },
+    {
+      "row": 4370,
+      "title": "运营助理/专员",
+      "industry": "建筑设计",
+      "location": "东莞-None",
+      "salary_range": "7000-10000元",
+      "company_name": "深圳市博诚项目管理有限公司"
+    },
+    {
+      "row": 4371,
+      "title": "律师助理",
+      "industry": "专利/商标/知识产权",
+      "location": "深圳-龙岗区",
+      "salary_range": "4000-6000元",
+      "company_name": "成都初阳知识产权代理事务所(特殊普通合伙)深圳分所"
+    },
+    {
+      "row": 4372,
+      "title": "网络销售",
+      "industry": "房地产中介,房地产中介,咨询服务",
+      "location": "深圳-龙华区",
+      "salary_range": "8000-10000元",
+      "company_name": "深圳市乐有家控股集团有限公司"
+    },
+    {
+      "row": 4373,
+      "title": "律师助理",
+      "industry": "法律服务,咨询服务,法律服务",
+      "location": "西安-雁塔区",
+      "salary_range": "2000-4000元",
+      "company_name": "广东信达(西安)律师事务所"
+    },
+    {
+      "row": 4377,
+      "title": "猎头顾问",
+      "industry": "人力资源服务,人力资源服务",
+      "location": "天津-西青区",
+      "salary_range": "7000-12000元",
+      "company_name": "天津联礼人力资源有限公司"
+    },
+    {
+      "row": 4379,
+      "title": "运营助理/专员",
+      "industry": "保险,保险",
+      "location": "南阳-卧龙区",
+      "salary_range": "面议",
+      "company_name": "中国平安"
+    },
+    {
+      "row": 4380,
+      "title": "律师",
+      "industry": "法律服务,法律服务",
+      "location": "深圳-南山区",
+      "salary_range": "8000-13000元",
+      "company_name": "广东良马律师事务所"
+    },
+    {
+      "row": 4381,
+      "title": "招聘专员/助理",
+      "industry": "房地产开发",
+      "location": "上海-徐汇区",
+      "salary_range": "6000-12000元·13薪",
+      "company_name": "上海太屋网络科技有限公司"
+    },
+    {
+      "row": 4382,
+      "title": "储备经理人",
+      "industry": "家政服务,物业管理,工程施工,居民服务",
+      "location": "合肥-蜀山区",
+      "salary_range": "5000-10000元",
+      "company_name": "安徽大海家政集团有限公司"
+    },
+    {
+      "row": 4384,
+      "title": "招聘专员/助理",
+      "industry": "货运/物流/仓储",
+      "location": "沈阳-沈河区",
+      "salary_range": "3000-6000元",
+      "company_name": "鑫俊达(沈阳)物流管理有限公司"
+    },
+    {
+      "row": 4387,
+      "title": "销售工程师",
+      "industry": "专用设备制造,电气机械/电力设备,电子设备制造",
+      "location": "泰州-姜堰区",
+      "salary_range": "9000-18000元",
+      "company_name": "江苏亚电科技股份有限公司"
+    },
+    {
+      "row": 4389,
+      "title": "售后客服",
+      "industry": "保险",
+      "location": "黄石-西塞山区",
+      "salary_range": "3000-5000元·13薪",
+      "company_name": "太平人寿保险有限公司黄石中心支公司"
+    },
+    {
+      "row": 4390,
+      "title": "广告销售",
+      "industry": "印刷/包装/造纸,零售/批发",
+      "location": "上海-宝山区",
+      "salary_range": "4000-8000元",
+      "company_name": "诚和致远科技集团有限公司"
+    },
+    {
+      "row": 4391,
+      "title": "猎头顾问",
+      "industry": "人力资源服务,企业服务,人力资源服务",
+      "location": "武汉-武昌区",
+      "salary_range": "5000-10000元",
+      "company_name": "华世先达咨询(北京)有限公司"
+    },
+    {
+      "row": 4393,
+      "title": "项目专员/助理",
+      "industry": "人力资源服务,人力资源服务",
+      "location": "南京-建邺区",
+      "salary_range": "6000-7000元·13薪",
+      "company_name": "上海外服江苏人力资源服务有限公司"
+    },
+    {
+      "row": 4397,
+      "title": "英语翻译",
+      "industry": "计算机软件,运营商/增值服务",
+      "location": "北京-海淀区",
+      "salary_range": "面议",
+      "company_name": "中软国际"
+    },
+    {
+      "row": 4404,
+      "title": "电话客服",
+      "industry": "互联网,计算机软件",
+      "location": "天津-滨海新区",
+      "salary_range": "4000-7000元",
+      "company_name": "北京五八信息技术有限公司"
+    },
+    {
+      "row": 4406,
+      "title": "销售工程师",
+      "industry": "电力/水利/热力/燃气,电气机械/电力设备,电子设备制造",
+      "location": "邢台-襄都区",
+      "salary_range": "7000-14000元",
+      "company_name": "江苏大全高压开关有限公司"
+    },
+    {
+      "row": 4408,
+      "title": "招聘专员/助理",
+      "industry": "人力资源服务",
+      "location": "长春-宽城区",
+      "salary_range": "4000-7000元",
+      "company_name": "吉林省蓝青蛙劳务派遣有限公司"
+    },
+    {
+      "row": 4409,
+      "title": "储备经理人",
+      "industry": "企业服务,互联网,咨询服务,专业技术服务",
+      "location": "上海-浦东新区",
+      "salary_range": "8000-15000元",
+      "company_name": "上海引贤企业发展有限公司"
+    },
+    {
+      "row": 4410,
+      "title": "网络客服",
+      "industry": "互联网,电子商务",
+      "location": "宿迁-宿城区",
+      "salary_range": "4000-7000元·14薪",
+      "company_name": "京东集团"
+    },
+    {
+      "row": 4413,
+      "title": "猎头顾问",
+      "industry": "房地产开发,房地产开发",
+      "location": "西安-未央区",
+      "salary_range": "2000-3000元",
+      "company_name": "华夏城投项目管理有限公司"
+    },
+    {
+      "row": 4416,
+      "title": "招聘专员/助理",
+      "industry": "网络/信息安全",
+      "location": "无锡-滨湖区",
+      "salary_range": "9000-10000元",
+      "company_name": "苏州云千企业管理有限公司"
+    },
+    {
+      "row": 4417,
+      "title": "招聘专员/助理",
+      "industry": "企业服务,咨询服务,在线生活服务（O2O）,互联网",
+      "location": "北京-朝阳区",
+      "salary_range": "9000-12000元",
+      "company_name": "蜜蜂速聘(天津)科技有限公司"
+    },
+    {
+      "row": 4419,
+      "title": "猎头顾问",
+      "industry": "咨询服务,咨询服务",
+      "location": "海口-秀英区",
+      "salary_range": "8000-15000元",
+      "company_name": "灏信法务咨询(佛山)有限公司"
+    },
+    {
+      "row": 4422,
+      "title": "律师",
+      "industry": "咨询服务",
+      "location": "济南-历城区",
+      "salary_range": "1-2万",
+      "company_name": "山东平正大律师事务所"
+    },
+    {
+      "row": 4423,
+      "title": "猎头顾问",
+      "industry": "互联网金融/小额贷款",
+      "location": "新乡-红旗区",
+      "salary_range": "9000-15000元",
+      "company_name": "平安融易(江苏)融资担保有限公司河南分公司"
+    },
+    {
+      "row": 4428,
+      "title": "英语翻译",
+      "industry": "广播/影视,翻译服务,广播/影视,咨询服务",
+      "location": "北京-丰台区",
+      "salary_range": "100-120元/天",
+      "company_name": "北京天星浩宇国际文化传播有限责任公司"
+    },
+    {
+      "row": 4432,
+      "title": "运营助理/专员",
+      "industry": "物业管理",
+      "location": "乐山-市中区",
+      "salary_range": "2000-3000元",
+      "company_name": "乐山万达广场商业管理有限公司"
+    },
+    {
+      "row": 4434,
+      "title": "售后客服",
+      "industry": "电子商务",
+      "location": "石家庄-桥西区",
+      "salary_range": "3000-5000元",
+      "company_name": "河北汉马腾胜文化传媒有限公司"
+    },
+    {
+      "row": 4435,
+      "title": "网络客服",
+      "industry": "咨询服务",
+      "location": "北京-朝阳区",
+      "salary_range": "7000-14000元",
+      "company_name": "北京益信保信息咨询服务有限公司"
+    },
+    {
+      "row": 4437,
+      "title": "储备经理人",
+      "industry": "仪器仪表制造",
+      "location": "泰州-姜堰区",
+      "salary_range": "4000-8000元",
+      "company_name": "江苏远望仪器集团有限公司"
+    },
+    {
+      "row": 4439,
+      "title": "网络销售",
+      "industry": "卫生服务",
+      "location": "石家庄-长安区",
+      "salary_range": "7000-9000元",
+      "company_name": "石家庄天德圣门诊部有限公司长安中医门诊部"
+    },
+    {
+      "row": 4440,
+      "title": "质检员",
+      "industry": "快速消费品,快速消费品",
+      "location": "重庆-巴南区",
+      "salary_range": "4000-7000元",
+      "company_name": "蓝月亮"
+    },
+    {
+      "row": 4441,
+      "title": "销售工程师",
+      "industry": "人工智能,工业自动化,人工智能,物联网",
+      "location": "徐汇区-None",
+      "salary_range": "1.5-2.5万",
+      "company_name": "杭州海康威视数字技术股份有限公司"
+    },
+    {
+      "row": 4442,
+      "title": "储备经理人",
+      "industry": "新零售",
+      "location": "太原-小店区",
+      "salary_range": "5000-8000元",
+      "company_name": "太原任我行科技有限公司"
+    },
+    {
+      "row": 4443,
+      "title": "销售助理",
+      "industry": "农副产品加工制造,快速消费品",
+      "location": "长沙-雨花区",
+      "salary_range": "5000-8000元",
+      "company_name": "湖南湘楚情食品有限责任公司"
+    },
+    {
+      "row": 4445,
+      "title": "电话销售",
+      "industry": "IT服务",
+      "location": "石家庄-新华区",
+      "salary_range": "8000-16000元",
+      "company_name": "中企动力科技集团股份有限公司石家庄分公司"
+    },
+    {
+      "row": 4453,
+      "title": "质检员",
+      "industry": "人力资源服务",
+      "location": "长春-宽城区",
+      "salary_range": "8000-9000元·13薪",
+      "company_name": "广东全智人力资源有限公司"
+    },
+    {
+      "row": 4455,
+      "title": "运营助理/专员",
+      "industry": "电力/水利/热力/燃气,电力/水利/热力/燃气,新能源",
+      "location": "合肥-肥西县",
+      "salary_range": "3000-5000元",
+      "company_name": "徽辰智电科技股份有限公司"
+    },
+    {
+      "row": 4459,
+      "title": "律师助理",
+      "industry": "法律服务",
+      "location": "郑州-金水区",
+      "salary_range": "3000-4000元",
+      "company_name": "北京浩天(郑州)律师事务所"
+    },
+    {
+      "row": 4460,
+      "title": "网络客服",
+      "industry": "互联网,互联网",
+      "location": "北海-海城区",
+      "salary_range": "5000-7000元",
+      "company_name": "深圳乐信软件技术有限公司"
+    },
+    {
+      "row": 4461,
+      "title": "猎头顾问",
+      "industry": "学校/学历教育",
+      "location": "呼和浩特-土默特左旗",
+      "salary_range": "4000-6000元",
+      "company_name": "安徽新华教育集团"
+    },
+    {
+      "row": 4462,
+      "title": "电话客服",
+      "industry": "互联网金融/小额贷款",
+      "location": "郑州-金水区",
+      "salary_range": "7000-14000元",
+      "company_name": "河南通汇商务信息咨询有限公司"
+    },
+    {
+      "row": 4472,
+      "title": "售后客服",
+      "industry": "计算机软件",
+      "location": "长沙-岳麓区",
+      "salary_range": "5000-6000元",
+      "company_name": "邯郸市菲豪科技有限公司"
+    },
+    {
+      "row": 4473,
+      "title": "销售助理",
+      "industry": "通信/网络设备",
+      "location": "济南-市中区",
+      "salary_range": "150-200元/天",
+      "company_name": "亚信科技(中国)有限公司"
+    },
+    {
+      "row": 4474,
+      "title": "产品专员/助理",
+      "industry": "计算机软件",
+      "location": "北京-西城区",
+      "salary_range": "7000-14000元",
+      "company_name": "云钞金融服务(北京)有限公司"
+    },
+    {
+      "row": 4476,
+      "title": "广告销售",
+      "industry": "运营商/增值服务,通信/网络设备",
+      "location": "北京-平谷区",
+      "salary_range": "5000-6000元",
+      "company_name": "顺世宏信"
+    },
+    {
+      "row": 4480,
+      "title": "质检员",
+      "industry": "人力资源服务",
+      "location": "南京-秦淮区",
+      "salary_range": "7000-8000元",
+      "company_name": "东莞市众博人力资源有限公司"
+    },
+    {
+      "row": 4485,
+      "title": "广告销售",
+      "industry": "互联网",
+      "location": "沈阳-浑南区",
+      "salary_range": "3000-5000元",
+      "company_name": "温州赏金猎人网络科技有限公司"
+    },
+    {
+      "row": 4487,
+      "title": "销售运营",
+      "industry": "人力资源服务",
+      "location": "长春-绿园区",
+      "salary_range": "4000-6000元",
+      "company_name": "吉林省蓝青蛙劳务派遣有限公司"
+    },
+    {
+      "row": 4488,
+      "title": "律师助理",
+      "industry": "咨询服务",
+      "location": "福州-台江区",
+      "salary_range": "3000-5000元",
+      "company_name": "北京市盈科律师事务所"
+    },
+    {
+      "row": 4491,
+      "title": "网络客服",
+      "industry": "运营商/增值服务,IT服务,通信/网络设备",
+      "location": "石家庄-裕华区",
+      "salary_range": "4000-6000元",
+      "company_name": "博岳通信"
+    },
+    {
+      "row": 4492,
+      "title": "广告销售",
+      "industry": "通信/网络设备,通信/网络设备,运营商/增值服务",
+      "location": "杭州-滨江区",
+      "salary_range": "6000-10000元",
+      "company_name": "浙江友华工程咨询有限公司"
+    },
+    {
+      "row": 4495,
+      "title": "储备经理人",
+      "industry": "餐饮服务,餐饮服务",
+      "location": "西宁-城西区",
+      "salary_range": "4000-5000元",
+      "company_name": "内蒙古润隆餐饮管理有限公司"
+    },
+    {
+      "row": 4496,
+      "title": "招聘专员/助理",
+      "industry": "汽车研发/制造,汽车研发/制造,汽车零部件",
+      "location": "北京-通州区",
+      "salary_range": "1-2万·13薪",
+      "company_name": "北京九州华海科技有限公司"
+    },
+    {
+      "row": 4497,
+      "title": "运营助理/专员",
+      "industry": "医药制造,医疗设备/器械,卫生服务,农/林/牧/渔",
+      "location": "内江-市中区",
+      "salary_range": "4000-6000元·13薪",
+      "company_name": "四川恒通动保生物科技有限公司"
+    },
+    {
+      "row": 4498,
+      "title": "电话销售",
+      "industry": "运营商/增值服务,IT服务,通信/网络设备",
+      "location": "石家庄-裕华区",
+      "salary_range": "8000-12000元",
+      "company_name": "博岳通信"
+    },
+    {
+      "row": 4499,
+      "title": "总助/CEO助理/董事长助理",
+      "industry": "咨询服务",
+      "location": "南京-建邺区",
+      "salary_range": "6000-8000元",
+      "company_name": "大连金乌扶摇科技有限公司"
+    },
+    {
+      "row": 4500,
+      "title": "法务专员/助理",
+      "industry": "电子商务",
+      "location": "焦作-武陟县",
+      "salary_range": "3000-6000元",
+      "company_name": "焦作友商共联网络科技有限公司"
+    },
+    {
+      "row": 4501,
+      "title": "质检员",
+      "industry": "货运/物流/仓储",
+      "location": "佛山-南海区",
+      "salary_range": "1-1.2万",
+      "company_name": "江门市希音物流供应链有限公司"
+    },
+    {
+      "row": 4503,
+      "title": "电话客服",
+      "industry": "保险",
+      "location": "茂名-茂南区",
+      "salary_range": "4000-8000元",
+      "company_name": "中国大地财产保险股份有限公司"
+    },
+    {
+      "row": 4505,
+      "title": "销售工程师",
+      "industry": "橡胶和塑料制品,专业技术服务",
+      "location": "嘉兴-嘉善县",
+      "salary_range": "7000-10000元",
+      "company_name": "唯万科技有限公司"
+    },
+    {
+      "row": 4507,
+      "title": "储备经理人",
+      "industry": "印刷/包装/造纸",
+      "location": "成都-大邑县",
+      "salary_range": "5000-10000元",
+      "company_name": "成都嘉创联和包装制品有限公司"
+    },
+    {
+      "row": 4508,
+      "title": "律师",
+      "industry": "法律服务",
+      "location": "成都-锦江区",
+      "salary_range": "6000-10000元",
+      "company_name": "四川督政律师事务所"
+    },
+    {
+      "row": 4510,
+      "title": "总助/CEO助理/董事长助理",
+      "industry": "电子/半导体/集成电路",
+      "location": "重庆-沙坪坝区",
+      "salary_range": "4000-8000元·13薪",
+      "company_name": "兴芯社(重庆)电子设备有限公司"
+    },
+    {
+      "row": 4511,
+      "title": "律师",
+      "industry": "法律服务",
+      "location": "郑州-金水区",
+      "salary_range": "5000-10000元",
+      "company_name": "河南合而泰律师事务所"
+    },
+    {
+      "row": 4515,
+      "title": "销售工程师",
+      "industry": "仪器仪表制造,环保,电子/半导体/集成电路",
+      "location": "太原-杏花岭区",
+      "salary_range": "6000-10000元",
+      "company_name": "福州福光水务科技有限公司"
+    },
+    {
+      "row": 4516,
+      "title": "储备经理人",
+      "industry": "房地产中介,电子商务",
+      "location": "北京-西城区",
+      "salary_range": "9000-12000元",
+      "company_name": "北京链家置地房地产经纪有限公司"
+    },
+    {
+      "row": 4517,
+      "title": "质检员",
+      "industry": "医疗设备/器械,医疗设备/器械",
+      "location": "常州-武进区",
+      "salary_range": "3000-5000元",
+      "company_name": "邦尼医疗科技(常州)有限公司"
+    },
+    {
+      "row": 4519,
+      "title": "总助/CEO助理/董事长助理",
+      "industry": "日化产品制造,家具/家居/家电",
+      "location": "漳州-长泰区",
+      "salary_range": "5000-8000元·13薪",
+      "company_name": "康多乐有限公司"
+    },
+    {
+      "row": 4520,
+      "title": "法务专员/助理",
+      "industry": "咨询服务,咨询服务",
+      "location": "长春-朝阳区",
+      "salary_range": "3000-4000元",
+      "company_name": "吉林省科意达科技有限公司"
+    },
+    {
+      "row": 4521,
+      "title": "销售工程师",
+      "industry": "电气机械/电力设备,电气机械/电力设备",
+      "location": "南京-栖霞区",
+      "salary_range": "5000-10000元",
+      "company_name": "北京申电科技有限公司"
+    },
+    {
+      "row": 4522,
+      "title": "销售运营",
+      "industry": "新零售",
+      "location": "邯郸-邯山区",
+      "salary_range": "4000-8000元",
+      "company_name": "河北城与花科技有限公司"
+    },
+    {
+      "row": 4523,
+      "title": "电话销售",
+      "industry": "运营商/增值服务,IT服务,通信/网络设备",
+      "location": "石家庄-裕华区",
+      "salary_range": "1-1.5万",
+      "company_name": "博岳通信"
+    },
+    {
+      "row": 4524,
+      "title": "电话销售",
+      "industry": "医药制造,零售/批发",
+      "location": "石家庄-裕华区",
+      "salary_range": "5000-8000元",
+      "company_name": "河北御芝林生物科技有限公司"
+    },
+    {
+      "row": 4527,
+      "title": "总助/CEO助理/董事长助理",
+      "industry": "电子商务,金属制品业",
+      "location": "上海-嘉定区",
+      "salary_range": "7000-14000元",
+      "company_name": "上海幸业货架有限公司"
+    },
+    {
+      "row": 4528,
+      "title": "销售工程师",
+      "industry": "电子/半导体/集成电路,通信/网络设备,房地产开发,计算机硬件",
+      "location": "南京-栖霞区",
+      "salary_range": "7000-14000元",
+      "company_name": "南京睿目电子科技有限公司"
+    },
+    {
+      "row": 4531,
+      "title": "猎头顾问",
+      "industry": "咨询服务",
+      "location": "海口-龙华区",
+      "salary_range": "8000-10000元",
+      "company_name": "广东省国际工程咨询有限公司"
+    },
+    {
+      "row": 4532,
+      "title": "网络客服",
+      "industry": "文化艺术/娱乐,在线招聘/求职",
+      "location": "全国-None",
+      "salary_range": "6000-10000元",
+      "company_name": "新郑市尚念网络科技有限公司"
+    },
+    {
+      "row": 4535,
+      "title": "猎头顾问",
+      "industry": "咨询服务,咨询服务",
+      "location": "延安-宝塔区",
+      "salary_range": "6000-12000元",
+      "company_name": "灏信法务咨询(佛山)有限公司"
+    },
+    {
+      "row": 4536,
+      "title": "质检员",
+      "industry": "人力资源服务",
+      "location": "长春-南关区",
+      "salary_range": "7000-9000元",
+      "company_name": "河北硕升企业管理有限公司"
+    },
+    {
+      "row": 4538,
+      "title": "法务专员/助理",
+      "industry": "证券/期货,互联网",
+      "location": "北京-朝阳区",
+      "salary_range": "150-200元/天",
+      "company_name": "北京友财投资管理有限公司"
+    },
+    {
+      "row": 4539,
+      "title": "总助/CEO助理/董事长助理",
+      "industry": "新能源,新能源",
+      "location": "常州-武进区",
+      "salary_range": "7000-12000元",
+      "company_name": "弗斯迈智能科技(江苏)有限公司"
+    },
+    {
+      "row": 4541,
+      "title": "日语翻译",
+      "industry": "IT服务",
+      "location": "成都-武侯区",
+      "salary_range": "7000-9000元",
+      "company_name": "科聚智科(大连)科技有限公司"
+    },
+    {
+      "row": 4542,
+      "title": "售后客服",
+      "industry": "电子商务",
+      "location": "长沙-岳麓区",
+      "salary_range": "3000-6000元",
+      "company_name": "湖南司柠贸易有限公司"
+    },
+    {
+      "row": 4543,
+      "title": "广告销售",
+      "industry": "金属制品业,电气机械/电力设备",
+      "location": "柳州-鱼峰区",
+      "salary_range": "5000-7000元",
+      "company_name": "柳工"
+    },
+    {
+      "row": 4544,
+      "title": "招聘专员/助理",
+      "industry": "人力资源服务",
+      "location": "长春-双阳区",
+      "salary_range": "6000-7000元",
+      "company_name": "吉林省蓝青蛙劳务派遣有限公司"
+    },
+    {
+      "row": 4545,
+      "title": "销售运营",
+      "industry": "电子商务,计算机软件",
+      "location": "沈阳-沈河区",
+      "salary_range": "6000-10000元",
+      "company_name": "沈阳麦蓝网络科技有限公司"
+    },
+    {
+      "row": 4547,
+      "title": "招聘专员/助理",
+      "industry": "文化艺术/娱乐",
+      "location": "重庆-九龙坡区",
+      "salary_range": "3000-5000元",
+      "company_name": "重庆小狼大羊文化传媒有限公司"
+    },
+    {
+      "row": 4548,
+      "title": "产品专员/助理",
+      "industry": "贸易/进出口,电子商务",
+      "location": "金华-义乌市",
+      "salary_range": "6000-10000元",
+      "company_name": "义乌市微星百货有限公司"
+    },
+    {
+      "row": 4551,
+      "title": "律师助理",
+      "industry": "咨询服务,咨询服务",
+      "location": "大连-甘井子区",
+      "salary_range": "1000元以下",
+      "company_name": "辽宁开尔律师事务所"
+    },
+    {
+      "row": 4554,
+      "title": "电话销售",
+      "industry": "互联网",
+      "location": "杭州-滨江区",
+      "salary_range": "8000-16000元",
+      "company_name": "杭州长贤企服网络科技有限公司"
+    },
+    {
+      "row": 4556,
+      "title": "运营助理/专员",
+      "industry": "社团/组织/社会保障",
+      "location": "合肥-蜀山区",
+      "salary_range": "7000-10000元",
+      "company_name": "中科合肥技术创新工程院"
+    },
+    {
+      "row": 4557,
+      "title": "猎头顾问",
+      "industry": "医院,专用设备制造,卫生服务",
+      "location": "太原-杏花岭区",
+      "salary_range": "4000-8000元",
+      "company_name": "恒伦口腔医疗科技集团股份有限公司"
+    },
+    {
+      "row": 4561,
+      "title": "售后客服",
+      "industry": "保险",
+      "location": "郑州-二七区",
+      "salary_range": "4000-8000元",
+      "company_name": "中国人寿保险股份有限公司郑州市分公司"
+    },
+    {
+      "row": 4565,
+      "title": "猎头顾问",
+      "industry": "证券/期货,咨询服务",
+      "location": "北京-海淀区",
+      "salary_range": "8000-13000元",
+      "company_name": "锐识咨询服务(北京)有限公司"
+    },
+    {
+      "row": 4571,
+      "title": "电话销售",
+      "industry": "计算机软件,计算机硬件,IT服务,互联网",
+      "location": "石家庄-长安区",
+      "salary_range": "5000-10000元",
+      "company_name": "北京融锦信息科技有限公司"
+    },
+    {
+      "row": 4574,
+      "title": "日语翻译",
+      "industry": "人力资源服务",
+      "location": "天津-东丽区",
+      "salary_range": "7000-8000元·13薪",
+      "company_name": "上海市创优中小企业人才服务中心"
+    },
+    {
+      "row": 4575,
+      "title": "网络客服",
+      "industry": "电子商务,电子商务",
+      "location": "合肥-蜀山区",
+      "salary_range": "6000-8000元",
+      "company_name": "安徽医艾康健康科技有限公司"
+    },
+    {
+      "row": 4577,
+      "title": "英语翻译",
+      "industry": "金属制品业,互联网,石油/石化",
+      "location": "济南-历下区",
+      "salary_range": "6000-10000元",
+      "company_name": "山东省庆云县君创锁业有限公司"
+    },
+    {
+      "row": 4578,
+      "title": "网络销售",
+      "industry": "房地产中介,房地产中介,咨询服务",
+      "location": "佛山-南海区",
+      "salary_range": "5000-7000元",
+      "company_name": "深圳市乐有家控股集团有限公司"
+    },
+    {
+      "row": 4583,
+      "title": "律师助理",
+      "industry": "咨询服务",
+      "location": "北海-银海区",
+      "salary_range": "2000-3000元",
+      "company_name": "广西万益律师事务所"
+    },
+    {
+      "row": 4585,
+      "title": "招聘专员/助理",
+      "industry": "邮政/快递",
+      "location": "上海-青浦区",
+      "salary_range": "9000-16000元",
+      "company_name": "圆通速递有限公司"
+    },
+    {
+      "row": 4586,
+      "title": "网络销售",
+      "industry": "人力资源服务",
+      "location": "西安-雁塔区",
+      "salary_range": "1-2万",
+      "company_name": "天津勇林劳务派遣有限公司"
+    },
+    {
+      "row": 4587,
+      "title": "销售工程师",
+      "industry": "装饰装修,装饰装修",
+      "location": "南京-江宁区",
+      "salary_range": "7000-12000元",
+      "company_name": "江苏合空间环境工程有限公司"
+    },
+    {
+      "row": 4588,
+      "title": "招聘专员/助理",
+      "industry": "快速消费品",
+      "location": "衡阳-None",
+      "salary_range": "4000-5000元·15薪",
+      "company_name": "衡阳酃湖万达广场商业管理有限公司"
+    },
+    {
+      "row": 4592,
+      "title": "销售运营",
+      "industry": "运营商/增值服务",
+      "location": "西安-未央区",
+      "salary_range": "6000-7000元",
+      "company_name": "西安正义合信息科技有限公司"
+    },
+    {
+      "row": 4593,
+      "title": "律师",
+      "industry": "专利/商标/知识产权,专利/商标/知识产权,法律服务,咨询服务",
+      "location": "重庆-江北区",
+      "salary_range": "8000-12000元",
+      "company_name": "邦唐邦(北京)知识产权服务有限公司重庆分公司"
+    },
+    {
+      "row": 4594,
+      "title": "广告销售",
+      "industry": "农/林/牧/渔,农/林/牧/渔",
+      "location": "哈尔滨-南岗区",
+      "salary_range": "5000-9000元",
+      "company_name": "五常市顺泽米业有限公司"
+    },
+    {
+      "row": 4598,
+      "title": "招聘专员/助理",
+      "industry": "橡胶和塑料制品,日化产品制造",
+      "location": "北京-海淀区",
+      "salary_range": "7000-10000元",
+      "company_name": "众德(北京)机械设备有限公司"
+    },
+    {
+      "row": 4602,
+      "title": "销售助理",
+      "industry": "医疗设备/器械,医院,医药制造",
+      "location": "佛山-禅城区",
+      "salary_range": "8000-11000元",
+      "company_name": "佛山市润梦医疗科技有限公司"
+    },
+    {
+      "row": 4605,
+      "title": "产品专员/助理",
+      "industry": "互联网,贸易/进出口",
+      "location": "青岛-黄岛区",
+      "salary_range": "4000-8000元",
+      "company_name": "修齐致和"
+    },
+    {
+      "row": 4606,
+      "title": "销售运营",
+      "industry": "环保,环保",
+      "location": "北京-朝阳区",
+      "salary_range": "90-100元/天",
+      "company_name": "北控城市环境服务集团有限公司"
+    },
+    {
+      "row": 4607,
+      "title": "网络客服",
+      "industry": "计算机软件,互联网,企业服务,通信/网络设备",
+      "location": "佛山-禅城区",
+      "salary_range": "1.2-1.5万",
+      "company_name": "上海维音信息技术股份有限公司广州分公司"
+    },
+    {
+      "row": 4610,
+      "title": "电话客服",
+      "industry": "IT服务",
+      "location": "大庆-龙凤区",
+      "salary_range": "6000-10000元",
+      "company_name": "京北方"
+    },
+    {
+      "row": 4612,
+      "title": "销售工程师",
+      "industry": "电力/水利/热力/燃气,电力/水利/热力/燃气,新能源",
+      "location": "南京-江宁区",
+      "salary_range": "8000-16000元",
+      "company_name": "北京中能新电技术有限公司"
+    }
+  ]
+}

@@ -1,0 +1,694 @@
+﻿.page5-login.login-page {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: radial-gradient(circle at 12% 8%, #d7e8ff 0, #eef3fb 36%),
+    radial-gradient(circle at 90% 84%, #cfe2ff 0, #eef3fb 34%),
+    linear-gradient(145deg, #eef3fb 0%, #f6f9ff 100%);
+  padding: 24px;
+  display: grid;
+  place-items: center;
+}
+
+.page5-login-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 80% 14%, rgba(22, 119, 255, 0.22) 0, rgba(22, 119, 255, 0) 45%),
+    radial-gradient(circle at 18% 76%, rgba(104, 164, 255, 0.18) 0, rgba(104, 164, 255, 0) 44%);
+  animation: page5-login-float 14s ease-in-out infinite alternate;
+}
+
+.page5-login-shell {
+  position: relative;
+  z-index: 1;
+  width: min(460px, 100%);
+  display: grid;
+  gap: 16px;
+}
+
+.page5-login-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+.page5-login-logo {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #6db3ff 0%, #9ac8ff 100%);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0f2b54;
+  font-size: 22px;
+  font-weight: 700;
+  box-shadow: 0 8px 20px rgba(7, 20, 40, 0.2);
+}
+
+.page5-login .login-kicker,
+.page5-login .ant-typography.login-kicker,
+.page5-login .ant-typography h2,
+.page5-login .ant-typography h4 {
+  color: rgba(0, 0, 0, 0.88) !important;
+}
+
+.page5-login-card.ant-card {
+  border: 1px solid rgba(255, 255, 255, 0.55) !important;
+  box-shadow: 0 26px 50px rgba(35, 76, 132, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.35) !important;
+  border-radius: 18px !important;
+  background: rgba(255, 255, 255, 0.46) !important;
+  backdrop-filter: blur(18px) saturate(125%);
+}
+
+.page5-login-card .ant-card-body {
+  position: relative;
+  overflow: hidden;
+  padding: 32px 30px 28px;
+}
+
+.page5-login-form .ant-form-item {
+  margin-bottom: 16px;
+}
+
+.page5-login-form .ant-input,
+.page5-login-form .ant-input-affix-wrapper,
+.page5-login-form .ant-input-password {
+  position: relative;
+  z-index: 1;
+  border: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+.page5-login-form .ant-input-affix-wrapper {
+  min-height: 48px;
+  padding: 0 4px;
+  border-bottom: 1px solid rgba(33, 84, 155, 0.28) !important;
+  box-shadow: none !important;
+}
+
+.page5-login-form .ant-input-affix-wrapper .ant-input-prefix {
+  margin-right: 10px;
+  color: #2d66bf;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(220, 234, 255, 0.75);
+}
+
+.page5-login-form .ant-input-affix-wrapper-focused,
+.page5-login-form .ant-input-affix-wrapper:focus,
+.page5-login-form .ant-input-affix-wrapper:focus-within {
+  border-bottom-color: #3f8dff !important;
+  box-shadow: 0 6px 16px -10px rgba(22, 119, 255, 0.7) !important;
+}
+
+.page5-login-form .ant-input {
+  padding-left: 0 !important;
+  box-shadow: none !important;
+}
+
+.page5-login-form .ant-input:focus,
+.page5-login-form .ant-input-focused {
+  box-shadow: none !important;
+}
+
+.page5-login-form .ant-btn-primary {
+  border-radius: 12px !important;
+  background: linear-gradient(135deg, #1677ff 0%, #4c9bff 100%) !important;
+  border: none !important;
+  box-shadow: 0 10px 20px rgba(22, 119, 255, 0.26);
+}
+
+@keyframes page5-login-float {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+
+  100% {
+    transform: translate3d(0, -12px, 0) scale(1.03);
+  }
+}
+
+@media (max-width: 1100px) {
+  .page5-login-shell {
+    width: min(460px, 100%);
+  }
+}
+
+@media (max-width: 740px) {
+  .page5-login.login-page {
+    padding: 14px;
+  }
+
+  .page5-login-card .ant-card-body {
+    padding: 22px 18px !important;
+  }
+}
+
+.workbench-kicker,
+.ant-typography.workbench-kicker {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.workbench-title,
+.ant-typography.workbench-title {
+  margin: 6px 0 10px !important;
+  color: rgba(0, 0, 0, 0.88) !important;
+}
+
+.workbench-tag-row,
+.workbench-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.workbench-readiness-card.ant-card {
+  border-radius: 8px !important;
+}
+
+.workbench-readiness-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.workbench-readiness-label {
+  color: #6f7f95;
+}
+
+.workbench-readiness-score {
+  margin-top: 8px;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 800;
+  color: #0f2f5d;
+}
+
+.workbench-readiness-meta {
+  margin-top: 8px;
+  color: #5f6f86;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.workbench-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.workbench-kpi-card.ant-card {
+  border-radius: 8px !important;
+}
+
+.workbench-kpi-card .ant-card-body {
+  padding: 14px 16px;
+}
+
+.workbench-kpi-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  background: #edf3ff;
+  color: #3b72e8;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.workbench-kpi-label {
+  display: block;
+  margin-top: 10px;
+  color: #71839c;
+  font-size: 13px;
+}
+
+.workbench-kpi-value {
+  margin-top: 5px;
+  font-size: 28px;
+  line-height: 1.1;
+  font-weight: 800;
+  color: #102a4b;
+}
+
+.workbench-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.workbench-grid-2x {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.workbench-card.ant-card {
+  border-radius: 8px !important;
+}
+
+.workbench-stack {
+  display: grid;
+  gap: 12px;
+}
+
+.workbench-section-title {
+  display: block;
+  margin-bottom: 8px;
+  color: #5d6d84;
+  font-size: 13px;
+}
+
+.workbench-job-item {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+.workbench-requirements,
+.workbench-role-list {
+  display: grid;
+  gap: 10px;
+}
+
+.workbench-requirement-item,
+.workbench-role-item,
+.workbench-path-card {
+  border: 1px solid #e6edf7;
+  border-radius: 6px;
+  background: #fbfdff;
+  padding: 12px 14px;
+}
+
+.workbench-requirement-item,
+.workbench-role-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.workbench-role-meta {
+  margin-top: 4px;
+  color: #78879b;
+  font-size: 13px;
+}
+
+.workbench-path-card {
+  display: grid;
+  gap: 8px;
+}
+
+.workbench-path-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.workbench-path-arrow {
+  color: #8392a6;
+}
+
+@media (max-width: 1100px) {
+
+  .workbench-hero,
+  .workbench-grid-2x,
+  .workbench-kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .workbench-hero>.workbench-hero-main {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 860px) {
+
+  .workbench-hero,
+  .workbench-grid-2x,
+  .workbench-kpi-grid,
+  .page5-login-card .login-account-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page5-login-shell {
+    max-width: 620px;
+  }
+
+  .page5-login-card .ant-card-body {
+    padding: 24px 18px;
+  }
+}
+
+/* Dashboard round-2: closer to react-admin-web workplace layout */
+.adminv2-dashboard {
+  gap: 14px !important;
+}
+
+.adminv2-banner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.adminv2-banner-main {
+  padding: 20px 24px;
+  border-radius: 6px;
+  border: 1px solid #e2e9f5;
+  background:
+    linear-gradient(120deg, rgba(255, 255, 255, 0.92), rgba(245, 249, 255, 0.95)),
+    none, transparent 60%);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.adminv2-kicker {
+  color: #2f6fe4 !important;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.adminv2-title,
+.ant-typography.adminv2-title {
+  margin: 6px 0 2px !important;
+  color: #0e2644 !important;
+}
+
+.adminv2-subtitle {
+  color: #5f7490;
+}
+
+.adminv2-tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.adminv2-ready-card.ant-card {
+  border-radius: 8px !important;
+}
+
+.adminv2-ready-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.adminv2-ready-label {
+  color: #6b7e96;
+}
+
+.adminv2-ready-score {
+  margin-top: 8px;
+  font-size: 42px;
+  line-height: 1;
+  font-weight: 800;
+  color: #102c4f;
+}
+
+.adminv2-ready-meta {
+  margin-top: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #5f6f86;
+  font-size: 13px;
+}
+
+.adminv2-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.adminv2-kpi-card.ant-card {
+  border-radius: 8px !important;
+}
+
+.adminv2-kpi-card .ant-card-body {
+  padding: 14px 16px 12px;
+}
+
+.adminv2-kpi-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.adminv2-kpi-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  background: #edf3ff;
+  color: #346de2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.adminv2-kpi-label {
+  display: block;
+  margin-top: 10px;
+  color: #73839a;
+  font-size: 13px;
+}
+
+.adminv2-kpi-value {
+  margin-top: 4px;
+  font-size: 30px;
+  line-height: 1.1;
+  font-weight: 800;
+  color: #10294a;
+}
+
+.adminv2-mini-track {
+  margin-top: 12px;
+  height: 6px;
+  border-radius: 999px;
+  background: #eaf1fb;
+  overflow: hidden;
+}
+
+.adminv2-mini-fill {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: #ffffff;
+}
+
+.adminv2-board-card.ant-card {
+  border-radius: 8px !important;
+}
+
+.adminv2-board-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.adminv2-board-sub {
+  margin-top: 2px;
+  color: #7b879a;
+  font-size: 13px;
+}
+
+.adminv2-board-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+  gap: 14px;
+}
+
+.adminv2-board-main,
+.adminv2-board-side {
+  border: 1px solid #e5ecf7;
+  border-radius: 6px;
+  background: #fbfdff;
+  padding: 12px 14px;
+}
+
+.adminv2-section-title {
+  display: block;
+  margin-bottom: 8px;
+  color: #5f6f86;
+  font-size: 13px;
+}
+
+.adminv2-rank-list {
+  display: grid;
+  gap: 8px;
+}
+
+.adminv2-rank-row {
+  display: grid;
+  grid-template-columns: minmax(90px, 0.9fr) minmax(0, 1.8fr) minmax(64px, auto);
+  align-items: center;
+  gap: 10px;
+}
+
+.adminv2-rank-name {
+  color: #223854;
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.adminv2-rank-bar {
+  height: 9px;
+  border-radius: 999px;
+  background: #e9f0fa;
+  overflow: hidden;
+}
+
+.adminv2-rank-fill {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: #ffffff;
+}
+
+.adminv2-rank-fill-city {
+  background: #ffffff;
+}
+
+.adminv2-rank-count {
+  text-align: right;
+  color: #466180;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.adminv2-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.adminv2-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.adminv2-card.ant-card {
+  border-radius: 8px !important;
+}
+
+.adminv2-stack {
+  display: grid;
+  gap: 12px;
+}
+
+.adminv2-ready-inline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.adminv2-inline-value {
+  font-size: 28px;
+  line-height: 1;
+  font-weight: 800;
+  color: #17345a;
+}
+
+.adminv2-inline-label {
+  margin-top: 4px;
+  color: #6f7f95;
+  font-size: 12px;
+}
+
+.adminv2-requirement-list,
+.adminv2-role-list {
+  display: grid;
+  gap: 9px;
+}
+
+.adminv2-requirement-item,
+.adminv2-role-item,
+.adminv2-path-card {
+  border: 1px solid #e6edf7;
+  border-radius: 6px;
+  background: #fbfdff;
+  padding: 12px 14px;
+}
+
+.adminv2-requirement-item,
+.adminv2-role-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.adminv2-role-meta {
+  margin-top: 4px;
+  color: #78879b;
+  font-size: 13px;
+}
+
+.adminv2-path-card {
+  display: grid;
+  gap: 8px;
+}
+
+.adminv2-path-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.adminv2-path-arrow {
+  color: #8392a6;
+}
+
+.adminv2-job-item {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+@media (max-width: 1180px) {
+  .adminv2-kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .adminv2-board-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 920px) {
+
+  .adminv2-banner,
+  .adminv2-grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .adminv2-banner-main {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .adminv2-kpi-grid {
+    grid-template-columns: 1fr;
+  }
+}
